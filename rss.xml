@@ -5,7 +5,7 @@
   <link href="rss.xml" rel="self" />
   <link href="https://example.com/" />
   <updated>
-    2025-07-14T00:55:54Z
+    2025-07-14T00:58:07Z
   </updated>
   <id>https://example.com/</id>
   <author>
@@ -14,7 +14,7 @@
   <entry>
     <title>About me</title>
     <link href="/about/" />
-    <updated>2025-07-14T00:55:54Z</updated>
+    <updated>2025-07-14T00:58:07Z</updated>
     <id>/about/</id>
     <content xml:lang="" type="html">
       <h1>👋 Hi, I'm Gordon (Again)</h1>
