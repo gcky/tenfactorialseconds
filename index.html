@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="theme-color" content="#fffcf0" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#100f0f" media="(prefers-color-scheme: dark)">
+
     
       <title>TenFactorialSeconds</title>
       <meta name="twitter:title" content="">
@@ -262,6 +265,10 @@
   }
   .logo {
     height: var(--font-size-xl);
+    width: var(--font-size-xl);
+  }
+  .logo-link {
+    flex-shrink: 0;
   }
   [data-theme="dark"] .logo {
     filter: invert(1);
@@ -280,7 +287,7 @@
   <nav>
     <ul class="navbar-links">
       <li class="link-home">
-        <a href="/"><img src="/favicon/android-chrome-512x512.png" alt="logo" class="logo"></a>
+        <a href="/" class="logo-link"><img src="/favicon/android-chrome-512x512.png" alt="logo" class="logo"></a>
         <a href="/">TenFactorialSeconds</a>
       </li>
       <li><a href="/articles">Articles</a></li>
@@ -377,7 +384,7 @@
     <a href="/about/">
       <h3 class="article-title">About me</h3>
       <div class="article-time">
-        <time datetime="Mon Jul 14 2025 00:58:07 GMT+0000 (Coordinated Universal Time)">
+        <time datetime="Mon Jul 14 2025 01:40:37 GMT+0000 (Coordinated Universal Time)">
           Mon, Jul 14, 2025
         </time>
       </div>
