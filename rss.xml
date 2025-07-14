@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://example.com/">
+  <title>TenFactorialSeconds</title>
+  <subtitle></subtitle>
+  <link href="rss.xml" rel="self" />
+  <link href="https://example.com/" />
+  <updated>
+    2025-07-14T00:44:44Z
+  </updated>
+  <id>https://example.com/</id>
+  <author>
+    <name>Gordon Cheng</name>
+  </author>
+  <entry>
+    <title>About me</title>
+    <link href="/about/" />
+    <updated>2025-07-14T00:44:44Z</updated>
+    <id>/about/</id>
+    <content xml:lang="" type="html">
+      <h1>👋 Hi, I'm Gordon (Again)</h1>
+<p>I'm a software developer originally from Hong Kong, now based in London for over a decade.</p>
+<p>I have a Master’s degree in Computer Science, and I’ve always been drawn to the ways technology shapes our everyday lives. My interests range from consumer tech (especially in the mobile space), to transportation (trains, planes, buses), to everyday design, where function meets form in the things we often take for granted.</p>
+<p>This blog is where I share thoughts, discoveries, and ideas around those topics. I’m also building an app on the side, and I plan to document that journey here, the ups, the downs, and everything in between.</p>
+<p>Lately, I’ve been experimenting with content on YouTube and Instagram too. It’s early days, but I’m excited to see where it leads.</p>
+<p>Thanks for visiting, and feel free to stick around and subscribe!</p>
+<p>Oh, and the name <em>TenFactorialSeconds</em>? That's a nod to a quirky mathematical fact: 10! seconds is exactly 6 weeks. There's no profound meaning behind it; I just thought it was an interesting coincidence.</p>
+
+    </content>
+  </entry>
+  <entry>
+    <title>The Fastlane Works (But Not for Everyone)</title>
+    <link href="/millionarie-fastlane-thoughts/" />
+    <updated>2025-07-12T00:00:00Z</updated>
+    <id>/millionarie-fastlane-thoughts/</id>
+    <content xml:lang="" type="html">
+      <p>With side hustles on my mind lately, I’ve been reading some business books, and one that is consistently recommended by business gurus was MJ DeMarco’s “The Millionaire Fastlane”. After a week listening to the audiobook, here are some of my  thoughts.</p>
+<p>Overall, this is a solid book that explains why achieving financial freedom through a traditional 9-5 job (unless it’s ridiculously high-paying) and index fund investing isn’t realistic for most people. The main issue is time: these strategies require decades of investment, and by the time you reach your goal, you may not have the health to enjoy the money or be around to spend it with loved ones. The book argues that starting your own business is the only real “fastlane” to financial freedom. This message has definitely strengthened my resolve to begin this journey and start a side business.</p>
+<p>I won’t dive into the book’s details, plenty of YouTubers have already summarized it, but I do want to address something that bothered me about this book and others in this genre: the tone feels condescending. The author seems unwilling to understand or entertain the idea that people might have valid reasons for not pursuing the “fastlane” to wealth. Perhaps some of this comes from the audiobook narrator, but throughout many chapters, the author discusses the fastlane as if people avoid it simply because they make excuses or lack education about getting rich.</p>
+<p>While this is certainly true for some people, there are legitimate reasons why others might not be able to pursue the fastlane, even if they want to. Personal circumstances can be major barriers. Sure, someone working multiple jobs to pay rent might squeeze in time for a side hustle, but I feel it’s a lot harder than the author makes it sound, physically or mentally. I don’t think he fully appreciates this reality.</p>
+<p>In fact, I’d argue that those barely surviving on multiple jobs face a uniquely challenging barrier, perhaps even more so than those who’ve hit rock bottom. (I’d also argue that more people are in the former group.) The “rock bottom” group has to make something work and has the time and energy to do so. For them, the downside of not trying is infinite, so any potential upside makes the effort worthwhile. But for people just surviving off their jobs, the downside isn’t infinite, working multiple low-paying jobs isn’t ideal, but they’re making ends meet. The potential downside of pouring time and energy into starting a business becomes tangible and risky.</p>
+<p>This is what I feel the author doesn’t fully appreciate, and many business-focused people share the same blind spot. They dismiss these concerns as excuses or lack of willpower rather than recognizing legitimate constraints. The condescending tone risks alienating readers instead of effectively conveying the message.</p>
+<p>Another example is the topic of luck. While it’s true that people often make excuses about being unsuccessful due to bad luck or dismiss others’ success as pure luck, I think successful people often downplay how much luck contributed to their achievements. Sure, luck might not be the majority factor, and you do need to position yourself for luck to strike, but the emphasis from successful people is always on “getting to the right place” while glossing over the part where luck actually strikes. They make it sound like being in the right place enough times means luck will eventually strike, but I don’t think that’s quite true.</p>
+<p>I’d frame it differently: you have to position yourself where luck can strike, that’s the part you can control, but luck still needs to happen. Successful people were fortunate enough to have luck strike when they were ready for it.</p>
+<p>All in all, I’d still recommend this book to people seeking financial freedom, as it shows there’s a path beyond working 30-40 years in a corporate job. But as with any advice, take only the parts that make sense and apply to your situation. Take the rest with a grain of salt.</p>
+
+    </content>
+  </entry>
+  <entry>
+    <title>When Educational Content Becomes a Sales Funnel</title>
+    <link href="/ali-abdaal-keyboard-thoughts/" />
+    <updated>2025-07-08T00:00:00Z</updated>
+    <id>/ali-abdaal-keyboard-thoughts/</id>
+    <content xml:lang="" type="html">
+      <p>I recently watched a video by Ali Abdaal where he reflected on the failure of his mechanical keyboard product. (The video is over a year old, I've only just stumbled upon it.) While it was certainly interesting to see someone openly discuss a real-world failure, I couldn't shake the feeling that he overlooked a crucial reason why people reacted negatively to his product.</p>
+<p><a href="https://www.youtube.com/watch?v=HGktY1dytCw">Watch the video on YouTube</a></p>
+<p>In the video, Ali discusses the mechanical keyboard he launched, aiming it at his audience who are keen on productivity, not necessarily seasoned mechanical keyboard enthusiasts. He then went into a review of his keyboard by another YouTuber, Hipyo, a mechanical keyboard enthusiast. Hipyo, despite being satisfied with the keyboard's build quality, felt that similar products were available at a better price. His strong feelings on the matter led him to say “He’s trying to appeal to an audience that knows nothing about keyboards but with a sense of authority of a productivity expert… because of his authority, he’s trying to get them to not do the research. And that to me just feels a little bit scummy.”</p>
+<p>Ali's reaction to this comment clearly showed his disagreement with being labeled &quot;scummy.&quot; He argued that he never actively discouraged research, he simply didn't mention competing products. He drew parallels to standard product marketing, noting that companies typically avoid highlighting competitors because it can be detrimental to their business. From his perspective, there was no issue with not explicitly encouraging his audience to research other mechanical keyboards on the market.</p>
+<p>This is precisely where I believe the multiple roles Ali plays, as a business owner and entrepreneur, and as a productivity and educational content creator, create a problem he didn't fully grasp. For me, the core issue isn't about the ethics of not mentioning competitors in marketing. Instead, it's about the conflict of interest that emerges when you market your own product while holding a position of authority and trust.</p>
+<p>When most individuals or companies market a new product, their target customers either aren't familiar with them, or they know them primarily through existing products. This means potential customers don't start from a place of inherent trust, and you have to actively persuade them to make a purchase. In such scenarios, customers implicitly understand you're trying to sell them something and may not be acting solely in their best interests. <em>(While some consumers do fall victim to this, I believe they also bear some responsibility for exercising caution with businesses.)</em></p>
+<p>However, when you've cultivated a relationship built on trust outside the context of direct sales by positioning yourself as an educator on productivity and entrepreneurship, as Ali often does in his other videos, you inadvertently dilute the perception that you might be primarily focused on selling. This, in turn, makes your audience less inclined to seek alternatives when you do offer a product. So, even if Ali didn't actively discourage or prevent research, his audience was likely less inclined to do so due to his established authority. This might have been acceptable if his keyboard was genuinely best-in-class across all metrics, as that would align with providing the best for his audience. But this was clearly not the case here, and I suspect that's why Hipyo used the word &quot;scummy.&quot;</p>
+<p>In fact, this conflict of interest is nothing new. It's why teachers, outside of the digital sphere, typically have restrictions on endorsing products. For example, school teachers can't simply market their own products in the classroom, and advertising in children's TV programming generally doesn't come directly from the mouths of the presenters. This makes it all the more surprising to me that Ali didn't seem to recognize this as the underlying issue, instead focusing on it being solely a marketing message problem. Don't get me wrong, I still believe he excels at teaching people about productivity, building businesses, and navigating life in general, and I continue to enjoy his other content. But it certainly highlights that everyone has their blind spots.</p>
+
+    </content>
+  </entry>
+</feed>
+
