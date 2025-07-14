@@ -1,0 +1,36 @@
+name: Deploy Eleventy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Or whatever your main branch is called (e.g., master)
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to push to gh-pages branch
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Eleventy site
+        run: npm run build # Runs the "build" script from your package.json
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4 # Uses the action to deploy
+        if: github.ref == 'refs/heads/main' # Only deploy from the main branch
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site # The directory where Eleventy outputs your static files
+          publish_branch: gh-pages # The branch GitHub Pages will serve from (created automatically)
+          cname: tenfactorialseconds.com
