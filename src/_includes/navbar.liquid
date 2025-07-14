@@ -39,6 +39,10 @@
   }
   .logo {
     height: var(--font-size-xl);
+    width: var(--font-size-xl);
+  }
+  .logo-link {
+    flex-shrink: 0;
   }
   [data-theme="dark"] .logo {
     filter: invert(1);
@@ -57,7 +61,7 @@
   <nav>
     <ul class="navbar-links">
       <li class="link-home">
-        <a href="/"><img src="/favicon/android-chrome-512x512.png" alt="logo" class="logo"></a>
+        <a href="/" class="logo-link"><img src="/favicon/android-chrome-512x512.png" alt="logo" class="logo"></a>
         <a href="/">{{ site.shortTitle }}</a>
       </li>
       <li><a href="/articles">Articles</a></li>
