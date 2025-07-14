@@ -1,0 +1,31 @@
+---
+layout: layouts/default.liquid
+---
+
+<div class="main-sections">
+  <section class="intro-container">
+    <h1>Hi, I'm Gordon 👋</h1>
+    <p>A software developer based in London 🇬🇧, originally from Hong Kong 🇭🇰</p>
+    <p>I’m into consumer tech 💻, transportation 🚆✈️🚌, and everyday design 🧠</p>
+    <p>Here you'll find my thoughts as I document my on-going projects ✍️</p>
+  </section>
+  <section>
+    <h2>Latest Posts</h2>
+    {% assign posts = collections.posts %}
+    {% assign count = 5 %}
+    {% include "postlist.liquid" %}
+    <a class="articles-link" href="/articles">All the articles</a>
+  </section>
+</div>
+
+<style>
+  .main-sections {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-7);
+  }
+  .articles-link {
+    display: block;
+    margin-top: var(--space-4);
+  }
+</style>
