@@ -3,9 +3,10 @@ title: About me
 description: 
 tags:
   - personal
+eleventyExcludeFromCollections: true
 ---
 
-# 👋 Hi, I'm Gordon (Again)
+# 👋 Hi, I'm Gordon (again)
 
 I'm a software developer originally from Hong Kong, now based in London for over a decade.
 
