@@ -1,9 +1,9 @@
 module.exports = {
-  title: "TenFactorialSeconds",
-  shortTitle: "TenFactorialSeconds",
+  title: "tenfactorialseconds",
+  shortTitle: "tenfactorialseconds",
   description:
     "A place where I write down my thoughts.",
-  url: "https://example.com/",
+  url: "https://tenfactorialseconds.com/",
   author: {
     name: "Gordon Cheng",
   },

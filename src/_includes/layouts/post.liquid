@@ -3,6 +3,7 @@ layout: layouts/default.liquid
 ---
 
 <header class="post-header">
+  <p class="post-icon">{{ icon }}</p>
   <h1 class="post-title">{{ title }}</h1>
   <div class="post-time">
     <time datetime="{{ post.date }}">
@@ -35,6 +36,9 @@ if similar.length > 0 %}
 {% endif %} {% include "css/prism.liquid" %}
 
 <style>
+  .post-icon {
+    font-size: var(--font-size-2xl);
+  }
   .post-header {
     margin-bottom: var(--space-5);
   }

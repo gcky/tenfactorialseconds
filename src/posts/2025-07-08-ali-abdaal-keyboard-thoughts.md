@@ -1,6 +1,7 @@
 ---
 title: When Educational Content Becomes a Sales Funnel
 description: 
+icon: 📺
 tags:
   - youtube
   - thoughts

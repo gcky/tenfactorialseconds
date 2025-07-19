@@ -1,6 +1,7 @@
 ---
 title: The Fastlane Works (But Not for Everyone)
 description: 
+icon: 📖
 tags:
   - book
   - thoughts
