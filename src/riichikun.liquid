@@ -103,6 +103,24 @@ layout: null
             margin: 0 auto 1.5rem;
         }
 
+        .hero-badge {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            animation: fadeIn 1s ease-out 0.6s both;
+        }
+
+        .hero-badge img {
+            height: 54px;
+            width: auto;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+
+        .hero-badge img:hover {
+            transform: scale(1.03);
+            filter: brightness(1.1);
+        }
+
         /* Screenshots Row */
         .screenshots {
             padding: 2rem 0 0;
@@ -208,6 +226,9 @@ layout: null
                 flex-direction: column;
                 gap: 1rem;
             }
+            .hero-badge img {
+                height: 48px;
+            }
         }
     </style>
 </head>
@@ -223,6 +244,11 @@ layout: null
         <section class="hero">
             <h2>Effortless Riichi Mahjong Scoring</h2>
             <p>RiichiKun is the ultimate companion for your in-person Riichi Mahjong sessions. Whether you are a beginner struggling with point calculations or a seasoned pro looking for a digital score stick, our app removes the friction of manual calculations so you can focus on the match.</p>
+            <div class="hero-badge">
+                <a href="https://apps.apple.com/us/app/riichikun-mahjong-calculator/id6749703685?itscg=30200&itsct=apps_box_badge&mttnsubad=6749703685" target="_blank" style="display: inline-block;">
+                    <img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1771027200" alt="Download on the App Store" style="vertical-align: middle; object-fit: contain;" />
+                </a>
+            </div>
         </section>
 
         <section class="screenshots">
