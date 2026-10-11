@@ -34,7 +34,10 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection("posts", function (collectionApi) {
-    return collectionApi.getFilteredByGlob("src/posts/*.md").reverse();
+    return collectionApi
+      .getFilteredByGlob("src/posts/*.md")
+      .filter((post) => !/\/\d{4}-\d{2}-\d{2}-[^/]+\.md$/.test(post.inputPath))
+      .reverse();
   });
 
   eleventyConfig.addLiquidFilter(

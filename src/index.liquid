@@ -4,17 +4,28 @@ layout: layouts/default.liquid
 
 <div class="main-sections">
   <section class="intro-container">
-    <h1>Hi, I'm Gordon 👋</h1>
-    <p>I'm a software developer living in London 🇬🇧, originally from Hong Kong 🇭🇰</p>
-    <p>My interests span from consumer tech 💻, transportation 🚆✈️🚌, to everyday designs 🧠</p>
-    <p>This is where I share my thoughts and document the projects I'm working on ✍️</p>
+    <h1>Hi, I'm Gordon 🧑‍💻</h1>
+    <p>I'm a software developer based in London 🇬🇧, originally from Hong Kong 🇭🇰</p>
+    <p>My interests range from consumer tech 💻 and transportation 🚈, to everyday design 🧠</p>
+    <p>Here, I share the projects I'm working on ✍️</p>
   </section>
-  <section>
-    <h2>Latest Posts</h2>
-    {% assign posts = collections.posts %}
-    {% assign count = 5 %}
-    {% include "postlist.liquid" %}
-    <a class="articles-link" href="/articles">All the articles</a>
+  <section class="projects-section">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <a href="/riichikun" class="project-item">
+        <img
+          src="/screenshots/riichikun_logo.png"
+          alt="RiichiKun Logo"
+          class="project-icon"
+          width="56"
+          height="56"
+        />
+        <div class="project-info">
+          <h3 class="project-title">RiichiKun</h3>
+          <p class="project-subtitle">Effortless Riichi Mahjong Scoring</p>
+        </div>
+      </a>
+    </div>
   </section>
 </div>
 
@@ -24,8 +35,52 @@ layout: layouts/default.liquid
     flex-direction: column;
     gap: var(--space-7);
   }
-  .articles-link {
-    display: block;
-    margin-top: var(--space-4);
+  .projects-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+  .project-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    text-decoration: none;
+    padding: var(--space-3);
+    margin: 0 calc(-1 * var(--space-3));
+    border-radius: 12px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  .project-item:hover {
+    background-color: var(--color-background-shade);
+  }
+  .project-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    object-fit: cover;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  .project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .project-title {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    color: var(--color-text);
+    transition: color 0.2s ease;
+  }
+  .project-item:hover .project-title {
+    color: var(--color-primary);
+  }
+  .project-subtitle {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-shade);
   }
 </style>
